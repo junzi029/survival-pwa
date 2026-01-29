@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#5D4037" />
+  <title>Café Survival - ようこそ</title>
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;background:linear-gradient(to bottom,#D7CCC8,#BCAAA4);color:#3E2723;min-height:100vh}
+    .wrap{max-width:800px;margin:0 auto;padding:20px;min-height:100vh}
+    .header{text-align:center;padding:40px 20px;background:#5D4037;color:#FFF;border-radius:20px;margin-bottom:30px;box-shadow:0 4px 12px rgba(0,0,0,0.15)}
+    .header h1{margin:0 0 10px;font-size:42px;font-weight:700;letter-spacing:2px}
+    .header p{margin:0;font-size:16px;opacity:0.9;font-style:italic}
+    .card{background:#FFF;border-radius:16px;padding:28px;margin-bottom:24px;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+    .card h2{margin:0 0 16px;font-size:24px;color:#5D4037;border-bottom:2px solid #BCAAA4;padding-bottom:12px}
+    .card p{line-height:1.8;margin:0 0 12px;color:#4E342E}
+    .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:20px}
+    .menu-item{background:#F5F5F5;padding:16px;border-radius:12px;border-left:4px solid #8D6E63;transition:transform 0.2s}
+    .menu-item:hover{transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,0.1)}
+    .menu-item h3{margin:0 0 8px;font-size:18px;color:#5D4037}
+    .menu-item p{margin:0;font-size:14px;color:#6D4C41;opacity:0.9}
+    .menu-item .price{font-weight:700;color:#D84315;margin-top:8px}
+    .cta-button{display:inline-block;background:#5D4037;color:#FFF;padding:16px 32px;border-radius:12px;text-decoration:none;font-weight:700;font-size:18px;transition:background 0.3s;margin-top:20px;text-align:center}
+    .cta-button:hover{background:#4E342E}
+    .footer{text-align:center;padding:20px;color:#6D4C41;font-size:14px;opacity:0.8}
+    .emoji{font-size:24px;margin-right:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1>☕ Café Survival</h1>
+      <p>心温まるひとときを、あなたに</p>
+    </div>
+
+    <div class="card">
+      <h2>ようこそ</h2>
+      <p>Café Survivalへようこそ。私たちは、厳選されたコーヒー豆と心のこもったサービスで、お客様に特別なひとときを提供しています。</p>
+      <p>落ち着いた雰囲気の中で、ゆったりとお過ごしください。</p>
+    </div>
+
+    <div class="card">
+      <h2>おすすめメニュー</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <h3><span class="emoji">☕</span>ブレンドコーヒー</h3>
+          <p>香り高い自家焙煎のブレンドコーヒー</p>
+          <p class="price">¥480</p>
+        </div>
+        <div class="menu-item">
+          <h3><span class="emoji">🍰</span>本日のケーキ</h3>
+          <p>季節のフルーツを使った特製ケーキ</p>
+          <p class="price">¥650</p>
+        </div>
+        <div class="menu-item">
+          <h3><span class="emoji">🥐</span>クロワッサン</h3>
+          <p>バターの風味豊かな焼きたてクロワッサン</p>
+          <p class="price">¥380</p>
+        </div>
+        <div class="menu-item">
+          <h3><span class="emoji">🍵</span>抹茶ラテ</h3>
+          <p>濃厚な抹茶とミルクの絶妙なハーモニー</p>
+          <p class="price">¥580</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>営業時間</h2>
+      <p><strong>平日:</strong> 8:00 - 20:00</p>
+      <p><strong>土日祝:</strong> 9:00 - 21:00</p>
+      <p><strong>定休日:</strong> 毎週火曜日</p>
+    </div>
+
+    <div class="card" style="text-align:center">
+      <h2>サバイバルゲームにチャレンジ！</h2>
+      <p>ちょっと息抜きに、極寒の-40℃サバイバルゲームはいかがですか？</p>
+      <a href="/game/index.html" class="cta-button">🎮 ゲームを始める</a>
+    </div>
+
+    <div class="footer">
+      <p>© 2024 Café Survival. All rights reserved.</p>
+      <p>〒123-4567 東京都渋谷区カフェ通り1-2-3</p>
+    </div>
+  </div>
+</body>
+</html>
