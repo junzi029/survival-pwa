@@ -1,0 +1,11 @@
+{
+  "name": "-40℃ サバイバル",
+  "short_name": "-40℃",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#111111",
+  "icons": [
+    { "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAKElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAABgO4wAAWw1x0QAAAAASUVORK5CYII=", "sizes": "64x64", "type": "image/png" }
+  ]
+}
